@@ -1,0 +1,206 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+    
+    .slider{
+        background:url("images/fondo.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+        
+    </style>
+
+    <title>Ejercicio 5</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand bg-primary navbar-dark navbar-fluid">
+      <a class="navbar-brand text-white" href="cinco.html">
+          <img class="d-inline-block align-top" width="30" height="30" src="images/computer.svg" alt="miLogo">
+          JaviDaw
+      </a>
+      <ul class="navbar-nav nav-pills">
+        <li class="nav-item pl-5 p-r5">
+          <a class="nav-link text-dark active" href="cinco.html">Inicio</a>
+        </li>
+        <li class="nav-item pl-5 p-r5">
+          <a class="nav-link text-dark" href="secciones.html">Secciones</a>
+        </li>
+        <li class="nav-item pl-5 p-r5">
+          <a class="nav-link text-dark" href="servicios.html">Servicios</a>
+        </li>
+      </ul>
+
+  </nav>
+      <!--
+        <section class="container-fluid slider d-flex justify-content-center align-items-center">
+
+            <h1 class="display-4 text-white">!!Usando Bootstrap 4!!</h1>
+
+        </section>
+      -->
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="height: 100vh;">
+            <img src="images/fondo.jpg" class="d-block w-100" alt="fondo1">
+          </div>
+          <div class="carousel-item" style="height: 100vh;">
+            <img src="images/fondo2.jpg" class="d-block w-100" alt="fondo2">
+          </div>
+          <div class="carousel-item" style="height: 100vh;">
+            <img src="images/fondo3.jpg" class="d-block w-100" alt="fondo-3">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+ 
+
+        <!--inicio de card-->
+      <div class="container mt-3 pt-3">
+        <div class="card-deck">
+          <div class="card">
+            <img src="images/card1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Casa nº1</h5>
+              <p class="card-text">Esta es la imagen de la primera casa.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Subida en primer lugar</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/card2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Casa nº2</h5>
+              <p class="card-text">Esta es la imagen de la segunda casa.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Subida en segundo lugar</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/card3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Casa nº3</h5>
+              <p class="card-text">Esta es la imagen de la tercera casa.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Subida en tercer lugar</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!--fin de card-->
+
+        <!--inicio de jumbotron-->
+      
+        <div class="jumbotron mt-4 rounded-0">
+        <div class="container">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <div class="d-flex justify-content-between align-items-center">
+              <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div>
+        </div>
+        </div>
+
+        <!--fin de jumbotron-->
+
+
+        <!--inicio de formulario-->
+
+        <div class="container">
+            <h3 class="text-uppercase text-underline"><u>Formulario</u></h3>
+          <div class="row">
+          <div class="col-6">
+            <form action="">
+              <div class="form-group">
+                <label for="">Nombre</label>
+                <input type="text" placeholder="Introduce aquí tu nombre" class="form-control">
+                <label for="">Apellidos</label>
+                <input type="text" placeholder="Introduce aquí tus apellidos" class="form-control">
+                <label for="">Email</label>
+                <input type="text" placeholder="Introduce aquí tu email" class="form-control">
+                
+                <br>
+                
+                  
+                  <label class="form-check-label pr-4" for="defaultCheck1">
+                    Selecciona si eres mayor de edad
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+
+                
+
+                <br>
+
+                
+                  <label class="form-check-label pr-4" for="exampleRadios">
+                    Género:
+                  </label>
+                  <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="Hombre">
+                  <label class="pr-4">Hombre</label>
+                  <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="Mujer">
+                  <label class="">Mujer</label>
+                  <br><br>
+                <button class="btn btn-dark mt-3">Enviar</button>
+              </div>
+
+
+            </form>
+          </div>
+          </div>
+        </div>
+
+        <!--fin de formulario-->
+
+        <section class="container">
+
+            <p class="mt-5 pt-5 text-center text-uppercase font-italic font-weight-bold">Lorem</p>
+
+            <p class="bg-success text-white"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, ex quas. Doloribus possimus est distinctio provident ipsam officia. Mollitia repellat sequi sapiente maxime nemo, iste nesciunt voluptates dolore? Quaerat quidem veniam unde eius porro sequi voluptatem in eveniet, architecto sapiente cum doloribus sunt! Explicabo iusto deserunt aspernatur dicta incidunt rerum fugiat obcaecati repellendus sunt a, vel maiores? Rerum distinctio, cumque impedit, ut unde nulla assumenda saepe debitis velit praesentium porro sunt modi. Dolor voluptatibus dignissimos a libero architecto explicabo laboriosam doloribus! Exercitationem facere quos illum, quia in excepturi voluptatem itaque quod consequatur. Modi tempore esse deleniti hic eius voluptates vero voluptatibus sed veritatis quibusdam, aliquam, dolorum quia. Blanditiis, mollitia qui molestiae id, omnis exercitationem recusandae quae quaerat laborum delectus error est iure officiis repellendus eligendi sed! Facere ut facilis nisi fuga eum error tempore labore tenetur? Dicta nemo quod quibusdam voluptatibus eius quia dolorem voluptatum neque autem non, consequatur praesentium? </p>
+
+            <p class="bg-primary text-white p-4 text-justify"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, ex quas. Doloribus possimus est distinctio provident ipsam officia. Mollitia repellat sequi sapiente maxime nemo, iste nesciunt voluptates dolore? Quaerat quidem veniam unde eius porro sequi voluptatem in eveniet, architecto sapiente cum doloribus sunt! Explicabo iusto deserunt aspernatur dicta incidunt rerum fugiat obcaecati repellendus sunt a, vel maiores? Rerum distinctio, cumque impedit, ut unde nulla assumenda saepe debitis velit praesentium porro sunt modi. Dolor voluptatibus dignissimos a libero architecto explicabo laboriosam doloribus! Exercitationem facere quos illum, quia in excepturi voluptatem itaque quod consequatur. Modi tempore esse deleniti hic eius voluptates vero voluptatibus sed veritatis quibusdam, aliquam, dolorum quia. Blanditiis, mollitia qui molestiae id, omnis exercitationem recusandae quae quaerat laborum delectus error est iure officiis repellendus eligendi sed! Facere ut facilis nisi fuga eum error tempore labore tenetur? Dicta nemo quod quibusdam voluptatibus eius quia dolorem voluptatum neque autem non, consequatur praesentium? </p cl>
+
+            <p class="bg-info text-white"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, ex quas. Doloribus possimus est distinctio provident ipsam officia. Mollitia repellat sequi sapiente maxime nemo, iste nesciunt voluptates dolore? Quaerat quidem veniam unde eius porro sequi voluptatem in eveniet, architecto sapiente cum doloribus sunt! Explicabo iusto deserunt aspernatur dicta incidunt rerum fugiat obcaecati repellendus sunt a, vel maiores? Rerum distinctio, cumque impedit, ut unde nulla assumenda saepe debitis velit praesentium porro sunt modi. Dolor voluptatibus dignissimos a libero architecto explicabo laboriosam doloribus! Exercitationem facere quos illum, quia in excepturi voluptatem itaque quod consequatur. Modi tempore esse deleniti hic eius voluptates vero voluptatibus sed veritatis quibusdam, aliquam, dolorum quia. Blanditiis, mollitia qui molestiae id, omnis exercitationem recusandae quae quaerat laborum delectus error est iure officiis repellendus eligendi sed! Facere ut facilis nisi fuga eum error tempore labore tenetur? Dicta nemo quod quibusdam voluptatibus eius quia dolorem voluptatum neque autem non, consequatur praesentium? </p>
+
+        </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+  </body>
+</html>
